@@ -1,5 +1,7 @@
 package br.com.washington.projandroid;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.animation.Animation;
@@ -29,5 +31,17 @@ public class SplashScreen extends AppCompatActivity {
             iv.clearAnimation();
             iv.startAnimation(anim);
         }
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                //apos o o tempo definido executar uma nova tela
+                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+
+                intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+                SplashScreen.this.finish();
+            }
+        }, SPLASH_DISPLAY_LENGHT);
     }
 }

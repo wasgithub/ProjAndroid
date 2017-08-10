@@ -45,7 +45,9 @@
             android:id="@+id/btLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_logar" />
+            android:text="@string/btn_logar"
+            android:textColor="#ffffff"
+            android:onClick="logar"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

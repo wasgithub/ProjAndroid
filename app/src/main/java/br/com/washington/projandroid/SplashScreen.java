@@ -36,7 +36,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 //apos o o tempo definido executar uma nova tela
-                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                Intent intent = new Intent(SplashScreen.this, LoginActivity.class);
 
                 intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_logar">Login</string>
+    <string name="hint_usuario">Digite seu usuario</string>
+    <string name="hint_senha">Digite sua senha</string>
+    <string name="tv_nome">Nome</string>
+    <string name="tv_senha">Senha</string>
+</resources>

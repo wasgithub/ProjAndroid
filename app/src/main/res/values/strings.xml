@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">PizzaCli</string>
+    <string name="app_name" translatable="false">PizzaCli</string>
+    <string name="tv_nome">Name</string>
+    <string name="hint_usuario">Enter your username</string>
+    <string name="tv_senha">Password</string>
+    <string name="hint_senha">type your password</string>
+    <string name="btn_logar">Logar</string>
 </resources>

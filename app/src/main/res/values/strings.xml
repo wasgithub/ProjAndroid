@@ -5,4 +5,10 @@
     <string name="tv_senha">Password</string>
     <string name="hint_senha">type your password</string>
     <string name="btn_logar">Logar</string>
+    <string name="title_activity_menu_navegacao">MenuNavegacaoActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

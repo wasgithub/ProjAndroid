@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         //valida o usuario e senha
         if (login.equals("admin") && senha.equals("")) {
             //mudar de tela de destino
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, MenuNavegacaoActivity.class);
             //passar valor para proxima tela
             intent.putExtra("usuario", login);
             //inicia a outra tela

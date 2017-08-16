@@ -20,7 +20,12 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".ListaActivity"></activity>
+        <activity android:name=".ListaActivity" />
+        <activity android:name=".FormularioActivity" />
+        <activity
+            android:name=".MenuNavegacaoActivity"
+            android:label="@string/title_activity_menu_navegacao"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

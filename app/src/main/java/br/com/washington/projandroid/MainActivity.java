@@ -1,9 +1,12 @@
 package br.com.washington.projandroid;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import br.com.washington.projandroid.adapter.ClienteAdapter;
@@ -33,6 +36,16 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), cliente.getNomeCliente(), Toast.LENGTH_SHORT).show();
             }
         }));
+
+        Button novoCliente = (Button) findViewById(R.id.novo_cliente);
+        novoCliente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Adicionar aluno", Toast.LENGTH_SHORT).show();
+                Intent intentFormulario = new Intent(MainActivity.this, FormularioActivity.class);
+                startActivity(intentFormulario);
+            }
+        });
 
         //this.recyclerView.setAdapter(new ClienteAdapter(ClienteAPI.clientes(), new TesteClick()));
     }

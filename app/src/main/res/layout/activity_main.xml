@@ -14,7 +14,7 @@
     </android.support.v7.widget.RecyclerView>
 
     <Button
-        android:id="@+id/novo_aluno"
+        android:id="@+id/novo_cliente"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:text="+"

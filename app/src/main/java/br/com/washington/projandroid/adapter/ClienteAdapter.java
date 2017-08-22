@@ -41,11 +41,11 @@ public class ClienteAdapter extends RecyclerView.Adapter<ClienteAdapter.ClienteV
             }
         });
 
-        holder.nomeCliente.setText(cliente.getNomeCliente());
-        holder.telefoneCliente.setText(cliente.getTelefoneCliente());
-        holder.enderecoCliente.setText(cliente.getEnderecoCliente());
-        holder.logintudeCliente.setText(cliente.getLogintudeCliente());
-        holder.latitudeCliente.setText(cliente.getLatitudeCliente());
+        holder.nome_cli.setText(cliente.getNome());
+        holder.tel_cli.setText(cliente.getTelefone());
+        holder.end_cli.setText(cliente.getEndereco());
+        holder.lat_cli.setText(cliente.getLatitude());
+        holder.lon_cli.setText(cliente.getLongitude());
     }
 
     @Override
@@ -56,19 +56,19 @@ public class ClienteAdapter extends RecyclerView.Adapter<ClienteAdapter.ClienteV
 
     static class ClienteViewHolder extends RecyclerView.ViewHolder {
 
-        final TextView nomeCliente;
-        final TextView telefoneCliente;
-        final TextView enderecoCliente;
-        final TextView logintudeCliente;
-        final TextView latitudeCliente;
+        final TextView nome_cli;
+        final TextView tel_cli;
+        final TextView end_cli;
+        final TextView lat_cli;
+        final TextView lon_cli;
 
         public ClienteViewHolder(View itemView) {
             super(itemView);
-            this.nomeCliente = (TextView) itemView.findViewById(R.id.nomeCliente);
-            this.telefoneCliente = (TextView) itemView.findViewById(R.id.telefoneCliente);
-            this.enderecoCliente = (TextView) itemView.findViewById(R.id.enderecoCliente);
-            this.logintudeCliente = (TextView) itemView.findViewById(R.id.logintudeCliente);
-            this.latitudeCliente = (TextView) itemView.findViewById(R.id.latitudeCliente);
+            this.nome_cli = (TextView) itemView.findViewById(R.id.nomeCliente);
+            this.tel_cli = (TextView) itemView.findViewById(R.id.telefoneCliente);
+            this.end_cli = (TextView) itemView.findViewById(R.id.enderecoCliente);
+            this.lat_cli = (TextView) itemView.findViewById(R.id.logintudeCliente);
+            this.lon_cli = (TextView) itemView.findViewById(R.id.latitudeCliente);
         }
     }
 

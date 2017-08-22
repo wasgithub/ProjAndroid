@@ -10,12 +10,12 @@ import br.com.washington.projandroid.modelo.Cliente;
  */
 
 public class ClienteAPI {
-    public static List<Cliente> clientes() {
-        List<Cliente> clientes = new ArrayList<>();
-        clientes.add(new Cliente("WAS", "999999", "RUA TESTE ", "999", "8888"));
-        clientes.add(new Cliente("ALEXANDRE", "888888", "RUA 888 ", "999", "8888"));
-
-        return clientes;
-    }
+//    public static List<Cliente> clientes() {
+//        List<Cliente> clientes = new ArrayList<>();
+//        clientes.add(new Cliente("WAS", "999999", "RUA TESTE ", "999", "8888"));
+//        clientes.add(new Cliente(2,"ALEXANDRE", "888888", "RUA 888 ", "999", "8888"));
+//
+//        return clientes;
+//    }
 
 }

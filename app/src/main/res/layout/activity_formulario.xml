@@ -29,15 +29,16 @@
                 android:id="@+id/formulario_endereco"/>
 
             <EditText
+                android:hint="Latitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/formulario_latitude"/>
+
+            <EditText
             android:hint="Logintude"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/formulario_logintude"/>
 
-            <EditText
-            android:hint="Latitude"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/formulario_latitude"/>
         </LinearLayout>
     </ScrollView>

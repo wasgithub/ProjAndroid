@@ -5,37 +5,58 @@ package br.com.washington.projandroid.modelo;
  */
 
 public class Cliente {
-    private final String nomeCliente;
-    private final String telefoneCliente;
-    private final String enderecoCliente;
-    private final String logintudeCliente;
-    private final String latitudeCliente;
+    private long id;
+    private String nome;
+    private String endereco;
+    private String telefone;
+    private String longitude;
+    private String latitude;
 
-    public Cliente(String nomeCliente, String telefoneCliente, String enderecoCliente, String logintudeCliente, String latitudeCliente ) {
-        this.nomeCliente = nomeCliente;
-        this.telefoneCliente = telefoneCliente;
-        this.enderecoCliente = enderecoCliente;
-        this.logintudeCliente = logintudeCliente;
-        this.latitudeCliente = latitudeCliente;
+    public long getId() {
+        return id;
     }
 
-    public String getNomeCliente() {
-        return nomeCliente;
+    public void setId(long id) {
+        this.id = id;
     }
 
-    public String getTelefoneCliente() {
-        return telefoneCliente;
+    public String getNome() {
+        return nome;
     }
 
-    public String getEnderecoCliente() {
-        return enderecoCliente;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public String getLogintudeCliente() {
-        return logintudeCliente;
+    public String getEndereco() {
+        return endereco;
     }
 
-    public String getLatitudeCliente() {
-        return latitudeCliente;
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
     }
 }
